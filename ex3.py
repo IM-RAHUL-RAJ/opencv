@@ -11,6 +11,6 @@ print(imgResize.shape)
 
 # crop image/////////
 # /
-img`crop=img[0:200,200:500]
+imgcrop=img[0:200,200:500]
 cv2.imshow('crop',imgcrop)
 cv2.waitKey(0)
