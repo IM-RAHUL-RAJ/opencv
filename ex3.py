@@ -9,7 +9,8 @@ print(imgResize.shape)
 # cv2.imshow('size',imgResize)
 # cv2.waitKey(0)
 
-# crop image//////////
-imgcrop=img[0:200,200:500]
+# crop image/////////
+# /
+img`crop=img[0:200,200:500]
 cv2.imshow('crop',imgcrop)
 cv2.waitKey(0)
